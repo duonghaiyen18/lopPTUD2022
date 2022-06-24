@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{84585D03-2B2F-422F-83C0-49F4F683D2EF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>lopPTUD2022</RootNamespace>
+    <AssemblyName>lopPTUD2022</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FRMBH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMBH.Designer.cs">
+      <DependentUpon>FRMBH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRMDKTC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMDKTC.Designer.cs">
+      <DependentUpon>FRMDKTC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmdmhh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmdmhh.Designer.cs">
+      <DependentUpon>Frmdmhh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRMGĐKTC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMGĐKTC.Designer.cs">
+      <DependentUpon>FRMGĐKTC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRMKH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMKH.Designer.cs">
+      <DependentUpon>FRMKH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRMLTCB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMLTCB.Designer.cs">
+      <DependentUpon>FRMLTCB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRMMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMMain.Designer.cs">
+      <DependentUpon>FRMMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRMMTBT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMMTBT.Designer.cs">
+      <DependentUpon>FRMMTBT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRMNCC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMNCC.Designer.cs">
+      <DependentUpon>FRMNCC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRMNV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMNV.Designer.cs">
+      <DependentUpon>FRMNV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRMQLBHNT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMQLBHNT.Designer.cs">
+      <DependentUpon>FRMQLBHNT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRMTHUOC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMTHUOC.Designer.cs">
+      <DependentUpon>FRMTHUOC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QLBHDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLBHDataSet1.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FRMBH.resx">
+      <DependentUpon>FRMBH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMDKTC.resx">
+      <DependentUpon>FRMDKTC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmdmhh.resx">
+      <DependentUpon>Frmdmhh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMGĐKTC.resx">
+      <DependentUpon>FRMGĐKTC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMKH.resx">
+      <DependentUpon>FRMKH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMLTCB.resx">
+      <DependentUpon>FRMLTCB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMMain.resx">
+      <DependentUpon>FRMMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMMTBT.resx">
+      <DependentUpon>FRMMTBT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMNCC.resx">
+      <DependentUpon>FRMNCC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMNV.resx">
+      <DependentUpon>FRMNV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMQLBHNT.resx">
+      <DependentUpon>FRMQLBHNT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMTHUOC.resx">
+      <DependentUpon>FRMTHUOC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="QLBHDataSet1.xsc">
+      <DependentUpon>QLBHDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="QLBHDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLBHDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLBHDataSet1.xss">
+      <DependentUpon>QLBHDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\data-processing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\manager.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\booking.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\copy1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\data-processing1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\import %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\import %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\import.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loupe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\manager1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\miscellaneous.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\price-tag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save-money.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sell.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\speedometer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medicine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\online-pharmacy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pharmacy %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medicines.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pharmacy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pharmaceutical.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medicine1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\people.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\support.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\best-seller.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money-exchange.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\customer-care.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rating.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\first-aid-kit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exchange.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

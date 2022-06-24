@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32510.428
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lopPTUD2022", "lopPTUD2022.csproj", "{84585D03-2B2F-422F-83C0-49F4F683D2EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84585D03-2B2F-422F-83C0-49F4F683D2EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84585D03-2B2F-422F-83C0-49F4F683D2EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84585D03-2B2F-422F-83C0-49F4F683D2EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84585D03-2B2F-422F-83C0-49F4F683D2EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8E3638E7-A884-4621-A1F7-C575A8907078}
+	EndGlobalSection
+EndGlobal
